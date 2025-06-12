@@ -27,3 +27,11 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+// inside <header> or wherever
+<nav className="space-x-4">
+  <a href="/sessions" className="hover:underline">Sessions</a>
+  <a href="/goals"    className="hover:underline">Goals</a>
+  <a href="/reflections" className="hover:underline">Reflections</a>
+</nav>
+
